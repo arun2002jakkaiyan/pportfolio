@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Portfolio</p>
+            </div>
+            <aside class="sidebar">
+                <ul class="links">
+                    <h4>Main Menu</h4>
+                    <li>
+                        <span class="material-symbols-outlined">dashboard</span>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">show_chart</span>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">flag</span>
+                        <a href="#Projects">Achievements</a>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">person</span>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </aside>    
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>    
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I,m</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Arun. <span>I am a web developer</span> </p>
+                    </div>
+                    <div class="text-btn">
+                        <a href="#contact"><button class="btn hire-btn"> Hire me</button></a>
+                        <button class="btn"><a href="resume/arun_resume.pdf">Download CV</a><i class="uil uil-file"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <a href="https://www.linkedin.com/in/arun-jakkaiyan-70ba9b248" target="_blank" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/arun2002jakkaiyan" target="_blank" class="icon"><i class="uil uil-github-alt"></i></a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="images/IMG-20240202-WA0003.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <h2>This is Arun</h2>
+                                    <p>from final year of ECE department from jai shriram engineering college.</p>
+                                </figcaption>
+                           </figure>
+                            <a href="#contact"><button class="about-me-btn">Hire me</button></a>
+                        </div>
+                        <div class="about">
+                            <figure class="about-back">
+                                <figcaption>
+                                    <h2>Projects</h2>
+                                    <ul>
+                                        <li><p>Temperature based fan speed controlling & monitoring system </p></li>
+                                        <li><p>highly secure smart car parking for smart cities</p></li>
+                                        <li><p>Pestcides detector using fruits and vegetables avilable in market</p></li>
+                                        <li><p>Music player using Html CSS JavaScript</p></li>
+                                    </ul>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip-h">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">css</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip-cs">70%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">Python</span>
+                                <div class="skill-bar">
+                                    <span class="skill-per python">
+                                        <span class="tooltip-p">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">C</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per C">
+                                        <span class="tooltip-c">75%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">JavaScript</span>
+                                <div class="skill-bar ">
+                                    <span class="skill-per JavaScript">
+                                        <span class="tooltip-j">65%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="Projects">
+                <div class="top-header">
+                    <h1>Achievements</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="uil uil-briefcase-alt"></i>
+                        <h3>Paper Publication</h3>
+                        <label class="pp">highly secure smart car parking for smart cities & Pestcides detector using fruits and vegetables available in market are pubilsed in HBRP Publication</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Awards</h3>
+                        <label class="awards">Awarded for poster design in national science day as second prize</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-award"></i>
+                        <h3>Participation</h3>
+                        <label class="Participation">participated in paper preesentation in KPR college of engineering & technology</label>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <span>If you liked my portfolio</span>
+                    <h1>Contact me here</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Number <i class="uil uil-corner-right-down"></i></h2>
+                            <p class="para"><i class="uil uil-envelope"></i>Email:arunjakkaiyan@gmail.com</p>
+                            <p><i class="uil uil-phone"></i>Phone:9360894998</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-controls">
+                            <form action="#" class="item">
+                                <div class="form-input">
+                                    <input type="text" id="name" class="input-field" placeholder="Your Name">
+                                    <input type="text" id="email" class="input-field" placeholder="Your Email">
+                                </div>
+                                <div class="text-area">
+                                    <input type="text" id="phone" class="input-subject" placeholder="phone no.">
+                                    <input type="text" id="subject" class="input-subject" placeholder="subject">
+                                    <textarea placeholder="Message" id="message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Achievements</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                        <div class="icon"><i class="uil uil-instagram"></i></div>
+                        <div class="icon"><i class="fa-brands-fa-linkedin-in-icon"></i></div>
+                        <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                        <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration:none;"></a>-All rights reserved 2023</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
